@@ -33,8 +33,7 @@ public class PlaylistAdapter extends RecyclerView<PlaylistAdapter.ViewHolder> {
         return new ViewHolder(filmView) {
         }
         @Override
-                public void onBindViewHolder(@NonNull ViewHolder ViewHolder viewHolder;
-        viewHolder, int i){
+                public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i){
                 Playlist playlist = playlistList.get(i);
 
             if (playlist.getImg() != null) {

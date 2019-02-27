@@ -18,7 +18,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         List<Playlist> playlistList = new ArrayList<>();
-        playlistList.add(new Playlist("album_1", "UIN Maulana Malik Ibrahim","",R.drawable.uin));
+        playlistList.add(new Playlist("Lagu_1", "Buka Hatimu","",R.drawable.armada));
+        playlistList.add(new Playlist("Lagu_1", "Heart Shaker","",R.drawable.twice));
+        playlistList.add(new Playlist("Lagu_1", "Kokobop","",R.drawable.exo));
+        playlistList.add(new Playlist("Lagu_1", "Love Scenanrio","",R.drawable.ikon));
+        playlistList.add(new Playlist("Lagu_1", "Goodbye Road","",R.drawable.ikon2));
 
 
         PlaylistAdapter adapterPlaylist = new PlaylistAdapter(playlistList);
